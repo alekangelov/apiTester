@@ -1,0 +1,25 @@
+{
+  "name": "apitester",
+  "version": "1.0.0",
+  "description": "Whatever you post it returns it back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekangelov/apiTester.git"
+  },
+  "author": "Alek Angelov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekangelov/apiTester/issues"
+  },
+  "homepage": "https://github.com/alekangelov/apiTester#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
